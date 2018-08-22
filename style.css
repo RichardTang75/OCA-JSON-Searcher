@@ -1,0 +1,90 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 15px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+#pages
+{
+  margin: 0 auto;
+  display:inline-block;
+  text-align:center;
+  overflow-x:scroll;
+  max-width: 100%;
+  white-space:nowrap;
+}
+#page_holder
+{
+  width:100%;
+  text-align:center;
+}
+#page_holder2
+{
+  width:100%;
+  text-align:center;
+}
+#search_options
+{
+  display: flex;
+  align-content:center;
+  align-items: baseline;
+}
+#search_box
+{
+  border-width: 2px;
+  border-color: #c7c7c7;
+  border-style: solid;
+  font-family: "Times New Roman", Times, serif;
+  color: #cbcbcb;
+  font-size: 16px;
+}
+#results_part
+{
+  display: flex;
+  flex-wrap: wrap
+}
+#page_describer
+{
+  text-align:center;
+}
+.page_button
+{
+  white-space:nowrap;
+  background-color: #fffdf4;
+  color:#00192f;
+}
+
+.result_box
+{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c7c7c7;
+  border-radius: 5px;
+  margin-right: 2%;
+  padding-right: 0%;
+  padding-left: 0%;
+  width: 30%;
+}
+.options_div
+{
+  position: relative;
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}

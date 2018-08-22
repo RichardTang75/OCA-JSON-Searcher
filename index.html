@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenClipArt Searcher</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>  <input id="search_box" type="text" name="search" 
+                  value="Type to search..." onblur="default_search();" onfocus="clear_text();">
+    </div>
+    <div id="search_options">
+      <div class="options_div" left=40%>
+        <form> 
+          Results per page <br>
+          <input type="radio" name="Results" value="10" checked> 10<br>
+          <input type="radio" name="Results" value="20"> 20<br>
+          <input type="radio" name="Results" value="50"> 50
+        </form>
+      </div>
+      <div class="options_div">
+        <form> 
+          Sort by <br>
+          <input type="radio" name="Sort" value="date" checked> Date<br>
+          <input type="radio" name="Sort" value="downloads"> Downloads<br>
+          <input type="radio" name="Sort" value="favorites"> Favorites
+        </form>
+      </div>
+    </div>
+    <div style="text-align:center">
+      <input type="button" name="Submit" value="Search" onclick="search()">
+    </div>
+    <hr>
+    <div id="page_describer"> Pages</div>
+    <div id="page_holder">
+        <input class= "page_button" type="button" name="1" value="1">
+    </div>
+    <div id="results_part"> 
+
+    </div>
+    <div id="page_holder2">
+      <input class= "page_button" type="button" name="1" value="1" style="background-color:pink">
+    </div>
+   </body>
+</html>
